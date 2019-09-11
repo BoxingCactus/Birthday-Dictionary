@@ -1,0 +1,22 @@
+
+if __name__ == '__main__':
+
+    birthdays = {
+        "Nathan Gratzer": 01/15/2001,
+        "Bob the Cat": 01/01/XXXX,
+        "Beau the Deer": 04/05/XXXX,
+        "Anna": 06/11/XXXX,
+        "Libra": 07/1/XXXX,
+        "Panne": 11/18/XXX}
+
+    print('Welcome to the small library of birthdays, ya nerd. We have these nerds in the collection:')
+    for names in birthdays:
+        print(name)
+
+    print('What nerd\'s birthday do you need to know, stranger?')
+    name = input()
+    if name in birhtdays:
+        print('{}\'s nerdy birthday is {}.'.format(name, birthdays[name]))
+    else:
+        print('That nerd's birthday isn't here, ya nerd!')
+
